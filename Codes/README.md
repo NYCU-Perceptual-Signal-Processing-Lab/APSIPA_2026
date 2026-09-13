@@ -136,7 +136,7 @@ Use `python <script>.py --help` to see every available option.
 
 | Setting | Source script | Target script |
 | --- | --- | --- |
-| Split | Sample-level 80/20, split seed 42 | Singer-level, `--val-ratio` default roughly 0.2 (Singer level split won't exactly be 20%, will be between 10~20 %), split we used is mentioned |
+| Split | Sample-level 80/20, split seed 42 | Singer-level,Singer-level split; default --val-ratio 0.2, with the validation singer count rounded down. The paper’s test singers are listed in the main README. |
 | Learning rate | `1e-3` | `1e-4` |
 | Maximum epochs | 50 | 30 |
 | Batch size | 128 | 128 |
