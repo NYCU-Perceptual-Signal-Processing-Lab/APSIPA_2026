@@ -211,7 +211,7 @@ If you use our SDVED-TDA dataset or other referring codes, please cite the follo
 ```latex
 @inproceedings{yuan2026reference,
   title={Reference-free Singing Voice Timbre Attribute Prediction via Perception Informed Network},
-  author={Hsi-Min Yuan, Pei-Chin Hsieh, Yih-Liang Shen, Tai-Shih Chi},
+  author={Yuan, Hsi-Min and Hsieh, Pei-Chin and Shen, Yih-Liang and Chi, Tai-Shih},
   booktitle={2026 Asia Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC)},
   year={2026},
   organization={IEEE}
@@ -222,7 +222,7 @@ If you use our SDVED-TDA dataset or other referring codes, please cite the follo
 <!-- ```latex
 @inproceedings{yuan2026reference,
   title={Reference-free Singing Voice Timbre Attribute Prediction via Perception Informed Network},
-  author={Hsi-Min Yuan, Pei-Chin Hsieh, Yih-Liang Shen, Tai-Shih Chi},
+  author={Yuan, Hsi-Min and Hsieh, Pei-Chin and Shen, Yih-Liang and Chi, Tai-Shih},
   booktitle={2026 Asia Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC)},
   pages={1--6},
   year={2026},
