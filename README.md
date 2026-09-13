@@ -14,8 +14,11 @@ The current release includes source domain & target domain training and validati
 A public paper link will be added when available.
 
 ## Overview
+![Task overview](task.png)
 
 Our framework predicts interpretable timbre attributes from a singing recording without requiring a reference performance. It combines a **256-dimensional frozen FACodec timbre embedding** with **44-dimensional handcrafted perceptual features**, followed by descriptor-specific MLP prediction heads.
+
+![Architecture overview](system.png)
 
 Transfer learning from instrument and speech timbre datasets supports adaptation to singing with limited annotated data. The prediction experiments focus on five attributes: **Bright, Thick, Soft, Pure, and Magnetic**.
 
