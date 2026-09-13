@@ -2,7 +2,7 @@
 
 Research repository for our work on **reference-free singing voice timbre attribute prediction**, bringing together the **SDVED-TDA dataset annotations, feature extraction, dataset processing, and training code**.
 
-For more details of our work, please see : (provided when available !)
+For more details of our work, please see : (provided when APSIPA 2026 paper released !)
 
 ## Available resources
 
@@ -207,8 +207,8 @@ The annotations describe perceived timbre attributes rather than overall singing
 
 
 ## Citation
-If you use our SDVED-TDA dataset or other referring codes, please cite the following paper:
-```latex
+If you use our SDVED-TDA dataset or other referring codes, please cite the following paper:(provided when APSIPA 2026 paper released !)
+<!--```latex
 @inproceedings{yuan2026reference,
   title={Reference-free Singing Voice Timbre Attribute Prediction via Perception Informed Network},
   author={Yuan, Hsi-Min and Hsieh, Pei-Chin and Shen, Yih-Liang and Chi, Tai-Shih},
@@ -219,7 +219,7 @@ If you use our SDVED-TDA dataset or other referring codes, please cite the follo
 
 ```
 
-<!-- ```latex
+ ```latex
 @inproceedings{yuan2026reference,
   title={Reference-free Singing Voice Timbre Attribute Prediction via Perception Informed Network},
   author={Yuan, Hsi-Min and Hsieh, Pei-Chin and Shen, Yih-Liang and Chi, Tai-Shih},
