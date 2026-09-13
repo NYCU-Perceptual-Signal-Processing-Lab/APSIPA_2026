@@ -1,6 +1,6 @@
 # Reference-free Singing Voice Timbre Attribute Prediction via Perception Informed Network
 
-Research repository for our work on **reference-free singing voice timbre attribute prediction**, bringing together the **SDVED-TDA dataset annotations, inference code, and training code**.
+Research repository for our work on **reference-free singing voice timbre attribute prediction**, bringing together the **SDVED-TDA dataset annotations, feature extration, dataset process, and training code**.
 
 For more details of our work, please see : (provided when available !)
 
@@ -45,7 +45,9 @@ The labels are available in [SDVED_TDA.json](SDVED_TDA.json).
 
 **SDVED-TDA** adds sample-level perceptual timbre annotations to the **Singing Dry Voice Evaluation Database (SDVED)**, part of the CCMusic database. While the original SDVED provides overall timbre scores, SDVED-TDA describes each singing sample using 18 timbre attributes.
 
-This repository provides the **annotation labels** and an inter-rater reliability figure. Audio recordings, model code, and pretrained weights are not included in this release.
+The dataset release provides annotation labels and an inter-rater reliability figure. Original audio recordings and trained prediction weights are not included.
+
+For original SDVED, please see & contact : https://ccmusic-database.github.io/database/ccm.html#shou2 find : `歌唱干声评价数据集`
 
 
 ### Dataset overview
