@@ -105,8 +105,7 @@ python train_target.py \
   --checkpoint-dir outputs/target_checkpoints
 ```
 
-For a from-scratch run, omit `--pretrained` **and set `--freeze-level 0`** so randomly initialized head layers remain trainable. Useful options
-include `--freeze-level {0,1,2}`, `--val-ratio 0.2`, and `--num-workers 4`.
+For a from-scratch run, omit --pretrained; all prediction-head parameters remain trainable.
 
 Both training scripts save `best_hybrid_model.pth` and `final_hybrid_model.pth` in the selected checkpoint directory. Use a separate directory for each experiment to avoid overwriting another model. These files contain the prediction head state and limited metadata; they do not bundle FACodec or feature normalization statistics.
 
@@ -136,7 +135,7 @@ Use `python <script>.py --help` to see every available option.
 
 | Setting | Source script | Target script |
 | --- | --- | --- |
-| Split | Sample-level 80/20, split seed 42 | Singer-level,Singer-level split; default --val-ratio 0.2, with the validation singer count rounded down. The paper’s test singers are listed in the main README. |
+| Split | Sample-level 80/20, split seed 42 | Singer-level split; default --val-ratio 0.2, with the validation singer count rounded down. The paper’s test singers are listed in the main README. |
 | Learning rate | `1e-3` | `1e-4` |
 | Maximum epochs | 50 | 30 |
 | Batch size | 128 | 128 |
