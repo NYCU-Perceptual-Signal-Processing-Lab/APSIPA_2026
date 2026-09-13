@@ -1,6 +1,6 @@
 # Reference-free Singing Voice Timbre Attribute Prediction via Perception Informed Network
 
-Research repository for our work on **reference-free singing voice timbre attribute prediction**, bringing together the **SDVED-TDA dataset annotations, feature extration, dataset process, and training code**.
+Research repository for our work on **reference-free singing voice timbre attribute prediction**, bringing together the **SDVED-TDA dataset annotations, feature extraction, dataset processing, and training code**.
 
 For more details of our work, please see : (provided when available !)
 
