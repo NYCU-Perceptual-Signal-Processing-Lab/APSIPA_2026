@@ -185,7 +185,7 @@ paper_labels = [
 
 - These labels describe perceived timbre attributes, rather than a single overall singing quality score.
 - The manuscript uses train/test partition at the singer level. Keep samples from the same singer together when constructing evaluation splits to avoid singer overlap.
-- In our work, we use `LYR`,`LZQ` as female test singer (2/13) and `TGL` as male test singer (1/9). All reported SDVED-TDA test results are measured on these data.
+- In our work, we use `LYR`,`LZQ` as female test singer (2/13) and `TGL` as male test singer (1/9). All reported SDVED-TDA test results are measured on these data and remain unseen during the training process.
 - The dataset is limited to 132 samples from 22 singers; consider this scope when interpreting generalization results.
 
 ## Training and evaluation
